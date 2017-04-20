@@ -1,0 +1,59 @@
+#loading {
+    width: 320px;
+    height: 16px;
+    display: block;
+    background: url(http://www.anivn.com/theme/animevn/images/taiketqua.gif) no-repeat 50% 50%;
+}
+#result_box {
+    margin-top: 5px;
+    display: block;
+    margin-left: -52px;
+    max-height: 330px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    width: 330px;
+    color: #FFF;
+    background: #353535;
+    font-family: Tahoma;
+    font-size: 13px;
+    z-index: 99;
+    text-align: left;
+}
+#result_box a {
+    padding: 5px;
+    color: #FFF;
+    display: inline-block;
+    width: 98%;
+    text-decoration: none;
+}
+#result_box a:hover {
+    color: #000;
+    background: #00ACB3;
+}
+#text-search-key {
+    background: #396;
+    padding: 8px!important;
+    font-size: 12px;
+    color: inherit;
+}
+.result-anivn a {
+    display: block;
+    padding: 5px;
+    font-size: 11px;
+    color: inherit;
+}
+.search-img {
+    width: 40px;
+    height: 49px;
+    float: left;
+    margin-right: 3px;
+    padding: 2px;
+}
+.result-anivn strong {
+    color: #F9FF00;
+}
+.cach-dong {
+    clear: both;
+    width: 100px;
+}
