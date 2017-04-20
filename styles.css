@@ -1,0 +1,2607 @@
+@import url("https://cdn.rawgit.com/buison/anivnpro/master/style.css");
+@import url("https://cdn.rawgit.com/buison/anivnpro/master/font_animevn.css");
+@import url("https://cdn.rawgit.com/buison/anivnpro/master/login-register.css");
+@import url("https://cdn.rawgit.com/buison/anivnpro/master/timkiem.css");
+@import url("https://cdn.rawgit.com/buison/anivnpro/master/thongbao.css");
+@charset "utf-8";
+/* Start CSS AnimeVNCMS */
+/* @media screen and (max-width: 1590px) {
+body {
+    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 57% 70%;
+    color:#BFBFBF;
+    font-family:animevncms;
+    font-size:12px;
+    line-height:1.3;
+    text-decoration:none;
+	}
+}
+@media screen and (max-width: 1600px) {
+body {
+    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat!important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 80%!important;
+    color:#BFBFBF;
+    font-family:animevncms;
+    font-size:12px;
+    line-height:1.3;
+    text-decoration:none;
+	}
+}
+@media screen and (max-width: 1920px) {
+body {
+    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    color:#BFBFBF;
+    font-family:animevncms;
+    font-size:12px;
+    line-height:1.3;
+    text-decoration:none;
+	}
+} */
+
+body {
+    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    color:#BFBFBF;
+    font-family:animevncms;
+    font-size:12px;
+    line-height:1.3;
+    text-decoration:none;
+	}
+
+html, body, .search-button-vpt {cursor: url("http://www.anivn.com/images/animecur.cur"), progress}
+#mediaplayer, a:hover,button:hover, #tab1:hover, #toggle-light:hover,.luotxem:hover,#lendautrang:hover,#submit-feedburner:hover,#submit-gopy:hover,#reset-gopy:hover,#mxgssm:hover,#explayer:hover, #likeplayer:hover, #explayer-1:hover, .box-alert-close:hover{text-decoration:none; background-position:bottom bottom; cursor : url("http://www.anivn.com/images/animehover.cur"), progress}
+
+/* DMCA */
+.dmca-animevn{
+    max-height: 3px;
+    margin-left: 3px;
+    margin-top: -2px;
+    float: right;
+}
+/* Quảng Cáo Adsense
+ .animevpt-website {
+    max-height: 130px!important;
+    max-width: 420px!important;
+    float: right;
+	overflow:hidden;
+	margin-right: -10px;
+}
+END Quảng Cáo Adsense */
+
+/* Quảng Cáo Admicro */
+.animevpt-website {
+	max-height: 150px!important;
+	max-width: 440px!important;
+	float: right!important;
+	margin-top: -9px!important;
+    margin-right: -10px;
+}
+#ssvzone_29380{
+	height: 145px!important;
+	width: 441px!important;
+	border: 1px solid #00AFCF!important;
+	background: rgba(255, 255, 255, 0)!important;
+}
+#ssvzone_29380_items .adv_items {
+	width: 210px!important;
+	height: 138px!important;
+	margin: 2px 5px 5px 5px!important;
+}
+#ssvzone_29380_items .ssvzBorder{background: #00AFCF!important;}
+#ssvzone_29380 .itemmc a {color: #06BD15!important;}
+#ssvzone_29380 #ssvzone_29380_items{background: #FFF!important;}
+#ssvzone_29380 .ssvzContent .ssvzMid {background: rgba(255, 255, 255, 0)!important;}
+#adx-footer {padding-top: 5px; margin: 0 auto; overflow: hidden; line-height: 20px; max-width: 980px!important; max-height:90px!important;}
+/* END Quảng Cáo Admicro */
+.ads-longvan{margin-top: 5px; min-width: 99%; max-width: 99%;}
+#animevpt-bannerdai *{max-width:960px!important;max-height:100px!important;overflow: hidden;margin-top: 2px;text-align:center;}
+#simsodep {
+	margin-top: 2px;
+    min-width: 100%;
+    max-width: 100%;
+}
+.error-border {
+border:1px dotted #54FF5D;
+padding:4px;
+margin-bottom:25px;
+}
+.error-title {
+font-size: 15px;
+color: #FFAE00;
+font-weight: bold;
+}
+.error-message {
+margin-top: 6px;
+padding-left: 5px;
+line-height: 20px;
+color: #FFF;
+font-size: 13px;
+}
+
+.search-google-animevn {
+    margin-top: 10px;
+}
+.breadcrumb a{color:#98FF00;}
+div.guestwarn {
+background: #4B9B00;
+color: #fff;
+font-weight:bold;
+max-width: 290px;
+min-height: 18px;
+padding: 0 5px 3px;
+position: fixed;
+right: 2%;
+top: 65%;
+padding: 10px 15px;
+position: fixed;
+z-index: 10;
+font-size: 12px;
+filter: alpha(opacity=88);
+-moz-opacity: .88;
+opacity: .88;
+}
+.close {
+float: right;
+background: transparent url(http://www.anivn.com/theme/animevn/images/close-thongbao.png);
+width: 22px;
+height: 22px;
+}
+
+.tooltip-vpt {
+display:none;
+font-size:14px;
+position:absolute;
+opacity: 0.80;
+width: 300px;
+background-color:#000;
+padding:5px;
+color:#FFF;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+border-radius:5px;
+box-shadow: 0 0 1px 1px #959595;
+overflow: hidden;
+z-index:999;
+}
+/* css boi den chu  */
+::-moz-selection {background-color: #FF9900; color: #fff;}
+::selection { background-color: #FF9900;color: #fff;}
+/* scrollbar */
+::-webkit-scrollbar{height:8px;width:8px}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 2px 2px 3px #e0e0e0;background:#fff;border:0 solid #000}
+::-webkit-scrollbar-thumb{-webkit-box-shadow:inset 2px 2px 3px #00CBF1;background:#00CBF1}
+::-webkit-scrollbar-thumb:hover{-webkit-box-shadow:inset 2px 2px 11px rgba(0,0,0,.3)}
+::-webkit-scrollbar-thumb:active{-webkit-box-shadow:inset 2px 2px 3px rgba(0,0,0,.3);background:#888}
+.dienvien-gioihan {text-overflow: ellipsis; white-space: nowrap; overflow:hidden; line-height: 25px;}
+.info-phimcms {font-weight:bold;color:#FFCC00;font-size: 13px;}
+.info-phimcms-2 {color:#FFF;font-size: 13px;}
+.info-phimcms-2 a {color:#FFF;font-size: 13px;}
+
+/* Tìm kiếm */
+#search-form{ display:block !important; width:auto !important; padding:0 !important; position:static !important;}
+.search-vpt {float: left;line-height: 1em;margin-left: 40px;text-align: left;width: 286px; padding-top:6px;}
+.navbar-search-vpt {height: 28px;padding: 2px;width: 283px;}
+.textbox-vpt {
+background: #000;
+font-family: animevncms;
+margin-top: 2px;
+color: #FFD500;
+font-size: 14px;
+height: 25px;
+padding: 1px;
+vertical-align: middle;
+width: 240px;
+float: left;
+}
+.search-button-vpt {
+background-attachment: scroll;
+background-image: url(http://www.anivn.com/theme/animevn/images/search_btn.png);
+background-position: left 0;
+background-repeat: no-repeat;
+border: 0 none;
+cursor: pointer;
+float: leftt;
+height: 28px;
+padding: 0;
+text-indent: -9999px;
+vertical-align: middle;
+width: 34px;
+margin-top: 2px;
+}
+
+.ac-results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: rgb(70, 70, 70);
+	color:#FFF;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac-results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac-results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac-loading {
+	background: white url('http://www.anivn.com/theme/animevn/images/loading_input.gif') right center no-repeat;
+}
+
+.ac-odd {
+	background-color:#303030;
+	color: #FFF;
+}
+
+.ac-over {
+	background-color: #00B9E7;
+	color: #FFF;
+}
+.ac-even a, .ac-odd a {
+	color: #FFF;
+	display: inline-block;
+	width: 100%;
+}
+.ac-results a:hover {color: #000;}
+.ac-results strong {color: #EFFF00;}
+/* kết thúc tìm kiếm */
+
+/* Menu xem phim */
+.button-watch {
+clear: both;
+height: 35px;
+background-color: #373737;
+text-align: right;
+line-height: 35px;
+width: 100%;
+background-image: url(http://www.anivn.com/theme/animevn/images/nen_watch.png);
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.button-watch .fb-like {
+float: left;
+max-width: 145px;
+max-height: 22px;
+background-color: #292929;
+line-height: 21px;
+margin: 0 5px;
+border-radius: 4px;
+-moz-border-radius: 50px;
+box-shadow: 0 1px 0 0 #454545;
+cursor: pointer;
+margin-top: 4px;
+padding: 3px;
+}
+
+.button-watch #explayer, .button-watch #likeplayer, .button-watch #explayer-1, .button-watch #toggle-light, .button-watch .luotxem, .button-watch #taianime  {
+font-size: 11px;
+display: inline-block;
+background-position: -27px -431px;
+background-color: #292929;
+height: 22px;
+line-height: 21px;
+margin: 0 5px;
+border-radius: 50px;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+box-shadow: 0 1px 0 0 #454545;
+cursor: pointer;
+color:#FFF;
+padding-left:10px;
+padding-right:10px;
+}
+
+.button-watch #explayer:hover, .button-watch #likeplayer:hover, .button-watch #explayer-1:hover, .button-watch #toggle-light:hover, .button-watch .luotxem:hover, .button-watch #taianime:hover {
+background: #000;
+color:#00FF00;
+}
+.button-watch div .wrap {
+border-radius: 50px;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+box-shadow: 0 1px 0 0 #222 inset;
+padding: 0 10px;
+}
+/* Kết thúc menu xem phim */
+
+@media screen and (max-width: 1100px) {
+.mangxahoi-cms {display:none!important;}
+}
+.mangxahoi-cms {
+text-align:center;
+max-width:70px;
+max-height: 170px;
+margin-top: 73px;
+background-color: rgba(106, 190, 0, 0.6);
+padding: 7px;
+position: fixed;
+left: 5px;
+top: 78px;
+}
+
+.serverlist {
+border: 1px solid #5F5F5F;
+background: #303030;
+padding-left: 5px;
+padding-right: 5px;
+margin-bottom: 5px;
+position: relative;
+}
+
+.message {color: #FFF;
+font-size: 13px;
+font-family: arial;
+line-height: 23px;
+}
+
+.noidung-gioithieu {
+color:#FF9B00;
+font-size:15px;
+font-weight:bold;
+}
+
+.noidung-gioithieu-content {
+color: #FFF;
+padding-top: 2px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-size: 14px;
+}
+.noidung-gioithieu-end {
+font-weight: bold;
+color: #00CFFF;
+font-size: 15px;
+}
+.download-phim {background:#303030;color:#FFF;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;margin-top:5px;border: 1px solid #5F5F5F;}
+.download-phim a {color:gold;}
+.facebook {background:#303030;color:#fff;}
+.facebook a {color:#FF004A!important;}
+.facebook-ntc{
+  font-size: 14px;
+  font-weight: bold;
+  color: #3F3F3F;
+  background: #fff;
+  padding: 10px;
+}
+.facebook-ntc>.comment-like-animevn{color:#00860B;}
+
+.block-gioithieu {color:white;font-size: 13px;}
+#embed_player {width:100%;height:100%;}
+
+/* tên phim trong hình ảnh */
+.tenphim-hinhanh {
+width: 146px;
+padding: 2px;
+/* background: rgba(0,0,0,0.65); */
+background: rgba(0, 136, 120, 0.65);
+position: absolute;
+bottom: 0;
+}
+.tenphim-hinhanh a {
+font-size: 10px;
+text-align: center;
+width: auto;
+}
+.tenphim-hinhanh h2 {
+text-overflow: ellipsis;
+white-space: nowrap;
+color: #FFF!important;
+width: 145px;
+max-height: 25px;
+overflow: hidden;
+font-size: 12px;
+font-weight: bold;
+}
+
+.tenphim-info {
+overflow: hidden;
+text-align: center;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 234px;
+background: rgba(0, 136, 120, 0.65);
+color: #fff;
+margin-top: -21px;
+padding: 3px;
+position: absolute;
+}
+.tenphim-info a {
+color:#FFF;
+font-size: 12px;
+width: auto;
+}
+.tenphim-info a:hover {
+color:#FFF;
+}
+/* kết thúc tên phim trong hình ảnh */
+
+/* luot xem trang chu & thong tin phim */
+.luotxem-slide {
+float: left;
+background: #008CCA;
+color: #fff;
+font-size: 13px;
+text-align: left;
+margin-top: -293px;
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 5px;
+padding-right: 5px;
+height: 15px;
+display: block;
+position: absolute;}
+.luotxem-home {
+float: left;
+background: #008CCA;
+color: #fff;
+font-size: 10px;
+text-align: left;
+margin-top: -213px;
+padding-top: 0px;
+padding-left: 5px;
+padding-right: 5px;
+height: 15px;
+display: block;
+position: absolute;}
+.luotxem-info {
+padding-bottom: 2px;
+float: left;
+background: #008CCA;
+color: #fff;
+font-size: 12px;
+text-align: left;
+margin-top: -347px;
+padding-top: 2px;
+padding-left: 5px;
+padding-right: 5px;
+height: 15px;
+display: block;
+position: absolute;
+}
+
+#savefilmfb {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    float: right;
+    margin-top: -385px;
+    padding-left: 510px;
+    display: block;
+    position: absolute;
+}
+/* ket thuc luot xem trang chu & thong tin phim */
+
+/* menu tab trang chu */
+@-webkit-keyframes content-opacity {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes content-opacity {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-o-keyframes content-opacity {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@keyframes content-opacity {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes content-rotate-y {
+  from {
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg); } }
+
+@-moz-keyframes content-rotate-y {
+  from {
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg); } }
+
+@-o-keyframes content-rotate-y {
+  from {
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg); } }
+
+@keyframes content-rotate-y {
+  from {
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg); } }
+
+@-webkit-keyframes content-rotate-x {
+  from {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg); } }
+
+@-moz-keyframes content-rotate-x {
+  from {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg); } }
+
+@-o-keyframes content-rotate-x {
+  from {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg); } }
+
+@keyframes content-rotate-x {
+  from {
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transform: rotateX(90deg); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    transform: rotateX(0deg); } }
+
+@-webkit-keyframes content-rotate-both {
+  from {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; } }
+
+@-moz-keyframes content-rotate-both {
+  from {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; } }
+
+@-o-keyframes content-rotate-both {
+  from {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; } }
+
+@keyframes content-rotate-both {
+  from {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform-origin: 0% 50% 50%;
+    -moz-transform-origin: 0% 50% 50%;
+    -ms-transform-origin: 0% 50% 50%;
+    -o-transform-origin: 0% 50% 50%;
+    transform-origin: 0% 50% 50%; } }
+
+@-webkit-keyframes content-pop-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-moz-keyframes content-pop-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-o-keyframes content-pop-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes content-pop-out {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes content-pop-in {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-moz-keyframes content-pop-in {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-o-keyframes content-pop-in {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes content-pop-in {
+  from {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes content-slide-bot {
+  from {
+    top: 20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@-moz-keyframes content-slide-bot {
+  from {
+    top: 20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@-o-keyframes content-slide-bot {
+  from {
+    top: 20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@keyframes content-slide-bot {
+  from {
+    top: 20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@-webkit-keyframes content-slide-top {
+  from {
+    top: -20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@-moz-keyframes content-slide-top {
+  from {
+    top: -20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@-o-keyframes content-slide-top {
+  from {
+    top: -20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@keyframes content-slide-top {
+  from {
+    top: -20px;
+    opacity: 0; }
+
+  to {
+    top: 0px;
+    opacity: 1; } }
+
+@-webkit-keyframes show {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes show {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-o-keyframes show {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@keyframes show {
+from {
+    opacity: 0; }
+to {
+    opacity: 1; } }
+	.tabs-wrapper {
+margin: 0%;
+width: auto;
+}
+.tabs-wrapper {margin: 0%; margin-bottom: 5px; width: auto; margin-top: -38px;}
+.tabs-wrapper input[type=radio] {display:none;}
+.tabs-wrapper label {
+transition: background 0.4s ease-in-out, height 0.2s linear;
+padding: 4px;
+color: #FFFFFF;
+width: 20%;
+height: 3em;
+background: #00A8FF;
+text-align: center;
+line-height: 3em;
+}
+.tabs-wrapper label:last-of-type {border-bottom: none; }
+.tabs-wrapper label:hover {background: #6AB200;}
+#tab1:checked + label, #tab2:checked + label, #tab3:checked + label {background: #F90;color: #fff;}
+.tab-body {position: absolute;top: -9999px;opacity: 0;}
+.tab-body-wrapper {border: none;border-radius: 0; }
+#tab1:checked ~ .tab-body-wrapper #tab-body-1, #tab2:checked ~ .tab-body-wrapper #tab-body-2, #tab3:checked ~ .tab-body-wrapper #tab-body-3 {
+  position: relative;
+  top: 0px;
+  -webkit-animation-delay: 0.2s;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-name: content-opacity;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-delay: 0.2s;
+  -moz-animation-duration: 0.8s;
+  -moz-animation-name: content-opacity;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-delay: 0.2s;
+  -o-animation-duration: 0.8s;
+  -o-animation-name: content-opacity;
+  -o-animation-fill-mode: forwards;}
+/* ket thuc menu tab trang chu */
+
+/* dang ki nhan tin */
+#submit-feedburner {
+	font-family:animevncms;
+	background: #71AE00;
+	color: #FFF;
+	padding: 5px;
+	border:1px solid #DADADA;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+#submit-feedburner:hover {
+	background:#83CA00;
+	color:#FFF;
+	border:1px solid #DADADA;
+}
+#input-feedburner {
+background:#000;
+margin-top: 5px;
+border: 1px solid #9FBE5F;
+width: 285px;
+padding: 8px;
+color: #FFF;
+-moz-transition: all 0.2s linear;
+text-shadow: #00CFFF 1px 0 1px;
+margin-bottom: 5px;
+}
+/* ket thuc dang ki nhan tin */
+
+/* len dau trang */
+#lendautrang {
+width: 100px;
+background: #079EE0;
+border: 1px solid #FFF;
+text-align: center;
+padding: 8px;
+position: fixed;
+bottom: 15px;
+right: 10px;
+cursor: pointer;
+color: #FFF;
+font-weight: bold;
+text-decoration: none;
+}
+#lendautrang a {
+text-decoration:none;
+}
+#lendautrang:hover{
+background:#EFA300;
+text-decoration:none;
+}
+#lendautrang a:hover{
+text-decoration:none;
+}
+@media screen and (max-width: 1250px) {
+#lendautrang {display:none!important;}
+}
+/* ket thuc len dau trang  */
+
+/* gop y */
+#submit-gopy,#reset-gopy {
+	font-family:animevncms;
+	background: #009CD5;
+	color: #FFF;
+	padding: 5px;
+	border:1px solid #DADADA;
+	cursor: pointer;
+}
+#submit-gopy:hover, #reset-gopy:hover{
+	background:#83CA00;
+	color:#FFF;
+	border:1px solid #DADADA;
+}
+#input-gopy {
+	background: #fff;
+	padding: 5px;
+	color: #000;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+}
+
+#input-gopy:focus, #input-gopy:hover {
+	-moz-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 1px, #9cf 0 0 10px;
+	-webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 1px, #9cf 0 0 10px;
+	box-shadow: rgba(255, 255, 255, 0.2) 0 1px 1px, #9cf 0 0 10px;
+	background:#FAFAFA;
+	border: 1px solid #00CCFF;
+}
+
+#screen{
+    position: fixed;
+    width: 100%;height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+    top:0;left: 0;
+    z-index: 99997;
+    display: none;
+}
+div.box-alert{
+    position: fixed;
+    background: url(http://www.anivn.com/yeu-cau/bg_box.png);
+    z-index: 99998;color: #333;
+    border-radius: 5px;
+    display: none;
+    text-align: justify;
+    line-height: 20px;
+}
+div.box-alert>div:first-child{
+    background: #fff;
+    margin: 8px;
+}
+div.box-alert>div h3{
+	padding-left: 5px;
+	font-size:15px;
+    color: #fff;height: 30px;
+    font-weight: bold;line-height: 30px;
+    text-indent: 30px;
+    background: #0088CC url(http://www.anivn.com/yeu-cau/yeu-cau.png) no-repeat 5px center;
+}
+div.box-alert>div>p {
+text-align:center;
+color: white;
+background: #00880C;
+padding: 4px 5px;
+margin-top: 5px;
+margin-bottom: 0;
+}
+div.box-alert form p{
+    font-size: 14px;
+    margin: 5px 8px;
+    overflow: hidden;
+}
+div.box-alert form p input{
+    width: 200px;
+    float: right;
+}
+
+.box-alert-close{
+    position: absolute;right: 12px;top:11px;
+    width: 23px;height: 22px;
+    background: url(http://www.anivn.com/yeu-cau/close.gif) bottom no-repeat;
+}
+.box-alert-close:hover{
+    background-position: top ;
+    cursor: pointer;
+}
+.box-alert h3,.box-alert h4{
+    margin: 0!important;
+}
+
+#box_sendmail input[type=submit]{margin-left: 96px;}
+#box_sendmail input[type=reset]{margin-left: 10px;}
+/* ket thuc gop y */
+
+#vpt_h1, #vpt-Person, #vpt-breadcrumb, #seo-animevn, #reviewrate {display:none;}
+
+li:hover ul ul, li.sfHover ul ul {
+    left:-9999px;
+}
+li:hover, li.sfHover {
+    position:static;
+}
+#marx-newp-4 li {list-style:none;}
+
+#wrap {
+    margin:10px auto 0 auto;
+}
+#header-animevn {
+    margin:0 auto;
+    width:960px;
+}
+#header-animevn h1{
+    font-size:0px;
+}
+#luotxem {
+    background-color:#303030;
+    border:1px solid #404040;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:11px;
+    margin:0;
+	margin-left: 3px;
+	text-align:center;
+	padding:4px 8px;
+    color:#FFF;
+    float:left;
+}
+
+#toggle-light {
+	cursor:pointer;
+    color:#FFF;
+}
+#lightout {
+    background:#000000;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:5;
+    opacity:0.95;
+	filter:alpha(opacity=95);
+    height:100%;
+    width:100%;
+    display:none;
+}
+#noidung-footer {
+	color:#FFF;
+    background:url(http://www.anivn.com/theme/animevn/images/bg_bottom.jpg) no-repeat transparent;
+    margin:0 auto;
+    overflow:hidden;
+    font-size: 13px;
+    padding:10px 10px 10px 10px;
+    width:960px;
+	line-height: 20px;
+    border:1px solid #6E6E6E;
+}
+
+#noidung-footer a{
+color:#FFF;
+}
+/* START MENU*/
+#toppic {
+background: #00AFCF;
+padding: 0;
+overflow: hidden;
+border: 1px solid #00AFCF;
+border-bottom-color: #00AFCF;
+clear: both;
+width: 980px;
+}
+ #topwrapper {
+    width:100%;
+    height:30px;
+    margin:0 auto;
+    padding:0}
+ .clearit {
+    clear:both;
+    height:0;
+    line-height:0.0;
+    font-size:0;
+}
+ #top {
+    width:100%;
+}
+ #top, #top ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+ #top a {
+    text-align:left;
+    display:block;
+    text-decoration:none;
+    padding:6px 12px 8px;
+    font:13px animevncms;
+    text-transform:none;
+    color:#FFF;
+}
+ #top a:hover {
+    background:#111;
+}
+ #top a.trigger {
+    background-image:url(http://www.anivn.com/theme/animevn/images/arrow_white.gif);
+	white-space: nowrap;
+    background-repeat:no-repeat;
+    padding:6px 24px 8px 12px;
+    background-position:right center;
+}
+ #top li {
+    float:left;
+    position:relative;
+}
+ #top li {
+    position:static;
+    width:auto;
+}
+ #top li ul, #top ul li {
+    width:720px;
+}
+ #top ul li a {
+    text-align:left;
+    padding:6px 10px;
+    font-size:13px;
+    font-weight:normal;
+    text-transform:none;
+    border:none;
+}
+ #top li ul {
+    z-index:100;
+    position:absolute;
+    display:none;
+    background-color:#2c2c2c;
+    opacity:0.9;
+	filter:alpha(opacity=90);
+    margin-left:-80px;
+    padding:3px 0;
+    -moz-box-shadow:0 2px 2px rgba(0,0,0,0.6);
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0,0.6)}
+ #top li ul li {
+    width:120px;
+    float:left;
+    margin:0;
+    padding:0}
+ #top li:hover ul, #top li.hvr ul {
+    display:block;
+}
+ #top li:hover ul a, #top li.hvr ul a {
+    color:#ddd;
+    background-color:transparent;
+    text-decoration:none;
+}
+ #top ul li a:hover {
+    color:#000000;
+    background:#FFFFFF;
+}
+ #nav li a:hover {
+    color:#000000;
+    background:#FFFFFF;
+}
+
+#top li ul#ul-nam-sx-anime {width:245px;}
+#top li ul li.nam-sx-anime {width: 122px;}
+#top li ul#ul-mua-anime {width:245px;}
+#top li ul li.mua-anime  {width: 122px;}
+.lien-ket-seo {display: inline;}
+.top-view-anime-right {color:#FFF;}
+.alexa-website-animevn {float:right;}
+.anime-app-mobile{color:#FFED00;}
+.TooltipContent{display:none;}
+.msgbox{display:none;}
+.table-download-anime{width:100%;}
+.td-danh-gia-anime{display: block;margin: auto;}
+#rate_s{display: block;}
+/* END MENU */
+
+.blockrow.note {
+	margin-top: 5px;
+	color: #F5F5F5;
+	background: #303030;
+	border: 1px solid #5F5F5F;
+    line-height:1.4em;
+	padding-top:5px;padding-left:5px;padding-bottom:5px;padding-right:5px;
+    margin-bottom:10px;
+}
+.blockrow-span {color:#00C0F0;font-weight:bold;}
+.blockrow-span a{color:#0CD800;}
+.blockrow-span a:hover{color:#00E5FF;}
+
+.wrap {
+    width:960px;
+    margin:0 auto;
+}
+.line-break-bottom, .breadcrumb {
+    -moz-box-shadow:0 1px #333;
+    -webkit-box-shadow:0 1px #333;
+    border-bottom:2px solid #000;
+    box-shadow:0 1px #333;
+}
+
+.rdt5, .single .entry-title {
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.sd20, .img170 img, .marx-search .post-thumb {
+    -webkit-box-shadow:1px 1px 5px #333;
+    -moz-box-shadow:1px 1px 5px #333;
+    box-shadow:1px 1px 5px #333;
+}
+.sd20:hover, .img170 img:hover {
+box-shadow: 0px 0px 10px #00FFFF !important;
+-webkit-box-shadow: 0 0 10px rgba(0, 235, 255, 0.85) !important;
+-moz-box-shadow: 0 0 10px rgba(0, 235, 255, 0.85) !important;
+}
+
+.clearfix::after {
+    clear:both;
+    content:".";
+    display:block;
+    font-size:0;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+}
+.grid-1 {
+    background-color:#000;
+    clear:both;
+    height:2px;
+    margin-bottom:10px;
+    width:100%;
+}
+.grid-1 span {
+    display:block;
+    height:100%;
+    margin:0;
+    width:210px;
+}
+.section-bar .grid-1 {
+    margin-bottom:0;
+}
+
+#content .grid-1 span {
+    width:150px;
+    background-color:#00CCFF;
+}
+#content-1 .grid-1 span
+{
+    width:150px;
+    background-color:#00CCFF;
+}
+
+#sidebar .grid-1 span {
+    background-color:#f90;
+}
+.bt, .bt-1{
+	font-family:animevncms;
+    background-color:#303030;
+    border:1px solid #404040;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:11px;
+    text-transform:uppercase;
+    margin:0;
+    outline:0;
+    padding:3px 8px;
+    white-space:nowrap;
+    word-wrap:normal;
+    color:#FFF;
+}
+.bt-img {
+    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-repeat:no-repeat;
+    display:block;
+    font-size:0;
+    height:16px;
+    vertical-align:middle;
+    width:16px;
+}
+.bt-like .bt-ct {
+    color:#71c02a;
+}
+.bt-dislike .bt-img {
+    margin-right:0;
+}
+.bt-like .m-bt-lk {
+    background-position:0 0;
+}
+.bt-dislike .m-bt-lk {
+    background-position:-16px 0;
+}
+.bt-ep .bt-ep-1 .m-bt-ep {
+    background-position:-32px 0;
+}
+.bt-sv .m-bt-sv {
+    background-position:-149px 0;
+}
+.bt-ep-o .m-bt-ep {
+    background-position:-92px 0;
+}
+.m-bt-dl {
+    background-position:-51px 0;
+}
+.m-bt-er {
+    background-position:-71px 0;
+}
+.single .entry-title, .breadcrumb {
+    font-size:14px;
+}
+.single h1.entry-title {
+    background:#000;
+    text-align:center;
+}
+.entry-title, .breadcrumb {
+    color:#FFF;
+    font-weight:700;
+    line-height:30px;
+    margin:0;
+}
+.movie-info-block .pt-img {
+    float:left;
+}
+.movie-info-block .img img {
+display: block;
+height: 347px;
+margin: 0 auto;
+width: 240px;
+-webkit-box-shadow: 1px 1px 5px #333;
+-moz-box-shadow: 1px 1px 5px #333;
+box-shadow: 1px 1px 5px #333;
+}
+.mvtitle {
+    color:#20D2FF;
+    font-size:16px;
+}
+.movie-info {
+    padding-left:247px;
+    height:287px;
+    display:block;
+    position:relative;
+}
+.movie-info p {
+    line-height:25px}
+	
+.m-gr {
+    color:#090;
+    font-weight:bold;
+}
+.movie-button {
+position: absolute;
+bottom: -60px;
+}
+.movie-content {
+    margin:20px 0;
+    line-height:21px;
+}
+.grtx {
+    color:#555;
+    display:block;
+    font-size:11px;
+}
+.on-h {
+    width:50%;
+    float:left;
+}
+.mxDl-t {
+    font-size:14px;
+    line-height:25px;
+}
+.mxDl-t, .mxDl-q {
+	background:#0093BE;
+	text-align: center;
+    color:#fff;
+    font-weight:bold;
+}
+.mxDl-q {
+position: absolute;
+overflow: hidden;
+bottom: -27px;
+right: -3px;
+background: #0093BE;
+padding: 3px 5px;
+cursor: pointer;
+font-size: 16px;
+}
+.mxDl-q a:hover{color:#2AA500;}
+
+.mDl {
+    border: 3px solid #0093BE;
+    background:#555;
+}
+.taxonomy-description {
+    margin:0;
+    padding:5px;
+    border:1px dashed #222;
+    margin-bottom:15px;
+}
+.taxonomy-description h1 {
+    font-size:13px;
+    color:#444}
+.taxonomy-description p {
+    font-style:italic;
+    color:#444;
+    text-align:justify}
+.section-title ,.widgettitle {
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:30px;
+}
+#content .section-title a, #content .section-title {color:#00CCFF;}
+#content-1 .section-title a, #content-1 .section-title  {color:#00CCFF;}
+.widgettitle {
+    margin:0;
+    padding:0;
+    color:#f90;
+}
+.ft-line {
+    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-repeat:no-repeat;
+    height:9px;
+    margin-bottom:3px;
+    width:300px;
+}
+.ft-notice {
+    background-position:0 -89px;
+}
+.ft-post {
+    background-position:0 -80px;
+}
+.ft-ads {
+    background-position:0 -67px;
+}
+.wg-post {
+    font-size:11px;
+    position:relative;
+}
+.wg-post .ft-link {
+    display:block;
+    position:relative;
+    z-index:0;
+}
+.wg-post .ft-title {
+    background:rgba(11, 11, 11, .9);
+    border:1px solid transparent;
+    color:#FFF;
+    display:block;
+    left:5px;
+    padding:5px;
+    position:absolute;
+    text-align:center;
+    bottom:10px;
+    width:278px;
+    z-index:1;
+}
+.wg-post .ft-a-lb {
+    display:none;
+    font-weight:400;
+}
+img.ft-thumb {
+    width:300px;
+    height:375px;
+}
+.wg-post .ft-p-if {
+    color:#FFF;
+    margin-top:8px;
+}
+.wg-post .ft-link:hover .ft-title {
+    border:1px solid #FFF;
+    text-decoration:none;
+}
+.wg-post .ft-link:hover .ft-a-lb {
+    display:block;
+}
+.wg-post .quality {
+    font-size:130%;
+    font-weight:700;
+    left:5px;
+    padding:2px 3px;
+    position:absolute;
+    top:5px;
+}
+.section-tab {
+    float:right;
+    list-style-type:none;
+    margin-top:8px;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.section-tab li {
+    float:left;
+    font-size:12px;
+}
+.section-tab li a, .np-viewall a.more {
+    color:#FF3C82;
+    display:block;
+    font-size:11px;
+}
+.section-tab li a:hover {
+    color:inherit;
+}
+.single .section-bar {
+    margin-top:20px;
+}
+#header {
+    margin-top:0;
+}
+body.fixed #header {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:2000;
+    width:100%;
+}
+body.fixed #header .wrap {
+    background-color:#000;
+}
+#header .wrap {
+padding: 0;
+overflow: hidden;
+border: 1px solid #00AFCF;
+border-bottom-color: #00AFCF;
+clear: both;
+width: 980px;
+}
+.header-image #title-area, .header-image #title, .header-image #title a {
+    display:block;
+    float:left;
+    height:30px;
+    margin:0;
+    overflow:hidden;
+    padding:0;
+    text-indent:-9999px;
+    width:135px;
+}
+#title a {
+    background:url(http://www.anivn.com/theme/animevn/images/sp.png) no-repeat -182px 8px;
+    display:block;
+}
+#header .widget-area {
+    margin-left:135px;
+}
+.h-sh {
+    float:right;
+}
+#marxgsform label {
+    display:block;
+    padding:9px 22px 7px 5px;
+}
+.h-sh .field {
+    background:none;
+    outline:0;
+    border:0;
+    padding:9px 22px 7px 5px;
+    margin:0;
+    width:150px;
+}
+#mxgssm {
+	cursor:pointer;
+    border:0;
+}
+
+#inner, #marx-slider .slider-title, #header .wrap {
+    background:#000;
+	background-image:url(http://www.anivn.com/theme/animevn/images/bg-trong.png);
+}
+#inner {
+    margin:0 auto;
+    overflow:hidden;
+    padding:0px 10px 0 10px;
+    width:960px;
+    border:1px solid #6E6E6E;
+    border-top:0;
+}
+.taxonomy-description {
+    margin:0 0 30px;
+    padding:10px;
+}
+#content-sidebar-wrap {
+    float:left;
+    width:790px;
+}
+#content-sidebar-wrap-1 {
+    float:left;
+    width:790px;
+}
+#content {
+    float:left;
+    width:460px;
+}
+#content-1 {
+    float:left;
+    width:460px;
+}
+.content-sidebar #content{
+    width:640px;
+}
+.content-sidebar #content-1 {
+    width:640px;
+}
+.sidebar-content #content {
+    width:760px;
+}
+.sidebar-content #content-1 {
+    width:760px;
+}
+.sidebar-content .sidebar {
+    width:180px;
+}
+blockquote {
+    background:#f5f5f5;
+    margin:0 0 20px -20px;
+    padding:25px 30px 5px 80px;
+}
+blockquote p {
+    color:#FFF;
+    font-size:16px;
+    font-style:italic;
+    line-height:22px;
+}
+.post-movies .post-info-wrap {
+    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    padding:3px;
+    position:absolute;
+    right:0;
+    top:178px;
+    width:170px;
+}
+.img170 img {
+    display:block;
+    height:213px;
+    margin:0 auto;
+    width:150px;
+}
+.img170 img:hover {
+    opacity:0.75;
+	filter:alpha(opacity=75);
+}
+.grid-title {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+    text-align:justify;
+    font-weight:700;
+    letter-spacing:0;
+    line-height:15px;
+    margin-top:5px;
+    overflow:hidden;
+    font-size:12px;
+}
+.info-left {
+    float:left;
+    position:relative;
+}
+.info-right {
+    float:right;
+    text-align:right;
+}
+.post-info-wrap {
+    position:absolute;
+    bottom:20px;
+    left:2px;
+}
+.liked {
+    color:#71c02a;
+}
+.img170 {
+    position:relative;
+    width:150px;
+    height:213px;
+    display:block;
+}
+
+.quality, .vid-rate {
+font-family: arial;
+font-size: 130%;
+font-weight: 700;
+right: 2px;
+padding: 2px 3px;
+bottom: 10px;
+color: #FFF;
+font-size: 10px;
+float: left;
+background-color: rgba(255, 112, 0, 0.80);
+}
+
+.entry-content a:hover {
+    text-decoration:none;
+}
+.clear-line {
+    border-bottom:1px solid #ddd;
+    clear:both;
+    margin:0 0 15px;
+}
+.one-fourth, .one-five, .one-5, .one-4 {
+    float:left;
+    margin:0 0 20px;
+    padding-left:2%}
+.one-five, .one-5 {
+    width:18.4%}
+.one-fourth, .one-4 {
+    width:23.5%}
+.first {
+    clear:both;
+    padding-left:0;
+}
+
+.post-info {
+    border-bottom:1px dotted #ddd;
+    color:#FFF;
+    font-size:14px;
+    margin:0 0 15px;
+    overflow:hidden;
+    padding:0 0 10px;
+}
+.italic {
+    color:#aaa;
+    font-style:italic;
+}
+#movie-player {
+    height:360px;
+    margin:0 auto;
+    width:100%;
+    display:block;
+    background:#000;
+}
+#severlist {
+    display:none;
+    padding:10px 0;
+    color:#FFF;
+}
+#svl span {
+    font-weight:bold;
+    margin-right:20px;
+    cursor:pointer;
+    color:#999;
+}
+#svl span.active {
+    color:#f90;
+}
+.movie-part {
+    width:630px;
+    padding-bottom:15px;
+    display:block;
+}
+.server {
+    /* text-transform:uppercase; */
+	color:#F90;
+    margin-bottom:5px;
+    margin-top:3px;
+    font-weight:bold;
+}
+.ep {
+    transition: all .2s ease-in-out;
+    font-size: 13px;
+    cursor: pointer;
+    color: #FFF!important;
+    font-weight: bold;
+    margin: 1px;
+    float: left;
+    background-color: #616161;
+    padding-right: 10px;
+	padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.episodelist .active {
+    color: #FFF!important;
+    background-color: #00ADDE!important;
+}
+
+.episodelist .ep:visited {
+    background-color: #245247;
+}
+
+.episodelist .ep:hover {
+    background-color:#F90;
+}
+
+.info-panel {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow:hidden;
+	width:100%;
+	max-width:100%;
+    clear:both;
+    margin:5px 0;
+}
+.info-panel .stats {
+    float:right;
+    font-size:16px;
+    font-weight:400;
+    line-height:27px;
+}
+
+.info-desc {
+margin-top: 75px !important;
+border: 1px solid #8C8787;
+background: #2A2929;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+position: relative;
+overflow: hidden;
+}
+
+.info-desc-tag {
+margin-top: 10px !important;
+margin-bottom: 15px;
+border: 1px solid #8C8787;
+background: #2A2929;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+position: relative;
+overflow: hidden;
+}
+
+.categories {
+    font-size:90%;
+}
+.description-text h2, .description-text h3, .description-text strong {
+    display:inline;
+    font-weight:400;
+}
+.description-extras a {
+    color:#FFF;
+    font-size:11px;
+}
+.toggle-des {
+    border-top:1px solid #212121;
+    padding-top:1px;
+    margin-bottom:15px;
+    text-align:center;
+}
+.toggle-des span {
+-moz-border-radius-bottomleft: 3px;
+-moz-border-radius-bottomright: 3px;
+background-color: #414141;
+color: #fff;
+cursor: pointer;
+font-size: 13px;
+padding: 2px 10px;
+}
+.post-meta {
+    clear:both;
+    font-size:11px;
+    font-style:italic;
+    margin-top:8px;
+}
+.archive-page {
+    float:left;
+    padding:20px 0;
+    width:45%}
+img {
+    max-width:100%}
+.sidebar {
+    color:#FFF;
+    display:inline;
+    float:right;
+    font-size:13px;
+    line-height:20px;
+    width:300px;
+}
+#sidebar-alt {
+    float:left;
+    width:150px;
+}
+.sidebar p {
+    font-size:13px;
+    line-height:20px;
+}
+.widget-area ol ol, .widget-area ul ul {
+    margin:0 0 0 15px;
+}
+.widget-area ul li {
+    list-style-type:square;
+    word-wrap:break-word;
+}
+.widget-area ol li {
+    list-style-type:decimal;
+}
+.sidebar-post .widget-post li {
+    list-style-type:none;
+    word-wrap:break-word;
+}
+.sidebar-post .item {
+    clear:both;
+    line-height:1.2;
+    list-style-type:none;
+}
+.item-link {
+    display:block;
+    overflow:hidden;
+    padding:0 0 10px;
+}
+.sidebar-post .title {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color:#00C56F;
+    cursor:pointer;
+    display:block;
+    margin-bottom:2px;
+    max-height:32px;
+    overflow:hidden;
+}
+.sidebar-post .title:hover {color:#00CCFF;}
+.sidebar-post .stat {
+    color:#00C2FF;
+    display:block;
+    font-size:.8166em;
+    height:1.4em;
+    line-height:1.4em;
+    overflow:hidden;
+}
+.sidebar-post .info {
+    color:#FFF;
+    display:block;
+    font-size:.9000em;
+    height:1.4em;
+    line-height:1.4em;
+}
+.sidebar-post .post-thumb {
+    float:left;
+    height:60px;
+    margin:0 8px 0 0;
+    width:50px;
+}
+.marx-newp {
+    position:relative;
+}
+.np-viewall {
+    position:absolute;
+    top:5px;
+    right:0;
+}
+
+#footer {
+    clear:both;
+    line-height:12px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+.section-bar, .breadcrumb {
+    margin-bottom:10px;
+    padding:0;
+}
+.marx-popup {
+    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    bottom:0;
+    color:green;
+    display:none;
+    font-size:12px;
+    padding:6px 20px;
+    position:fixed;
+    right:0;
+    z-index:901;
+}
+.mx-modal {
+    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    display:block;
+    height:100%;
+    position:fixed;
+    right:0;
+    top:0;
+    width:100%;
+    z-index:9999;
+}
+.mx-modal .wrap {
+    -webkit-box-shadow:1px 1px 20px #FFF;
+    background-color:#000;
+    border:1px solid #FFF;
+    box-shadow:1px 1px 20px #FFF;
+    margin:150px auto 0;
+    min-height:400px;
+    position:relative;
+    width:630px;
+}
+.mx-head {
+    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    color:#fff;
+    cursor:pointer;
+    font-size:13px;
+    line-height:30px;
+    overflow:hidden;
+    padding:0 10px;
+    text-align:right;
+}
+.mx-ctrl {
+    float:right;
+    font-weight:700;
+}
+.mx-head span {
+    color:red;
+}
+.mx-content {
+    clear:both;
+    display:block;
+    height:370px;
+    position:relative;
+    width:630px;
+}
+.mx-link {
+    bottom:0;
+    display:block;
+    height:42px;
+    position:absolute;
+    right:0;
+    width:144px;
+}
+.bt-ct, .description-extras h4, .sidebar a {
+    color:#00D7A7;
+}
+.bt-dislike .bt-ct, .wg-post .ft-link:hover .ft-lb {
+    display:none;
+}
+.ft-p-views, .is-tabs .section-title, .info-panel .bt, .sidebar-content #sidebar, .sidebar-sidebar-content #sidebar, .rating h4, .rating .star-holder, .mx-label {
+    float:left;
+}
+.ft-p-cat, .sidebar-content-sidebar #content-sidebar-wrap, .sidebar-sidebar-content #content-sidebar-wrap, .sidebar-content-sidebar #content-sidebar-wrap-1, .sidebar-sidebar-content #content-sidebar-wrap-1, .sidebar-content #content, .sidebar-sidebar-content #content, .sidebar-content #content-1, .sidebar-sidebar-content #content-1, .content-sidebar-sidebar #sidebar-alt {
+    float:right;
+}
+#marxgsform, .post-movies .widget-post {
+    position:relative;
+}
+a:hover,.sidebar a:hover,#nav li li a:hover,#svl span:hover, #nav li a:hover, #nav li a:active,.mx-tabs .post a:hover, #nav .current_page_item a, #nav .current-cat a, #nav .current-menu-item a, #footer-widgets h4 {
+    color:#00CCFF;
+}
+#nav li.right a:hover, #footer a:hover, #footer-widgets a:hover {
+    color:#fff;
+    text-decoration:underline;
+}
+.content-sidebar #content-sidebar-wrap, .full-width-content #content-sidebar-wrap, .sidebar-content #content-sidebar-wrap, .content-sidebar #content-sidebar-wrap-1, .full-width-content #content-sidebar-wrap-1, .sidebar-content #content-sidebar-wrap-1,.full-width-content #content, .full-width-content #content-1, .star5 {
+    width:100%;
+    padding-top:10px;
+}
+.clear, .marxpost {
+    clear:both;
+}
+.archive-page ul ul, .entry-content ul ul, .entry-content ol ol, #footer-widgets .textwidget {
+    padding:0;
+}
+.post-info a, .post-info a:visited, .post-meta a, .post-meta a:visited {
+    color:#FFF;
+    text-decoration:none;
+}
+.post-info a:hover, .description-extras a:hover, .post-meta a:hover {
+    text-decoration:underline;
+}
+.movie-part span.lb, .info-panel .bt, .sidebar-post .views {
+    margin-right:3px;
+}
+img.aligncenter {
+    display:block;
+    margin:0 auto;
+}
+.viewicon {
+    background:url(http://www.anivn.com/theme/animevn/images/sp.png) no-repeat -130px 0;
+    display:inline-block;
+    width:16px;
+    height:12px;
+    margin-right:4px;
+}
+.main-note {
+    margin-bottom:15px;
+    position:absolute;
+    left:0;
+    top:-1000px;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.f-help {
+    font-size:11px;
+    color:#444;
+    cursor:pointer;
+}
+.f-help a {
+    color:#444;
+}
+.ads-area {
+    position:relative;
+}
+.ads-area .ads-label {
+    color:#333;
+    line-height:1em;
+    background-color:#0B0B0B;
+    position:relative;
+    left:0;
+    bottom:-5px;
+    padding-right:10px;
+    display:none;
+}
+.seach-form {
+    margin-bottom:20px;
+}
+#marxgsform-m {
+    position:relative;
+}
+.placeholder {
+    position:absolute;
+    top:0;
+    left:0;
+    color:#555;
+}
+#marxgsform-m .placeholder {
+    padding:8px 10px 0;
+    display:block;
+}
+#marxgsm {
+    width:480px;
+    padding:4px 10px;
+}
+#marxgsform-m .submit {
+    padding:4px 20px;
+    margin-left:15px;
+    font-weight:bold;
+    background-color:#333;
+}
+#marxgsform-m .submit:hover {
+    background-color:#FFF;
+}
+.key-title {
+    font-size:14px;
+}
+.key-title span {
+    color:#00CCFF;
+}
+.marx-search .desc {
+    font-size:11px;
+    font-style:italic;
+}
+.marx-search .result {
+    clear:both;
+    margin:15px 0 15px 15px;
+    overflow:hidden;
+}
+.marx-search .post-thumb {
+    width:80px;
+    float:left;
+    margin-right:10px;
+}
+.marx-search .title {
+    display:block;
+    overflow:hidden;
+    font-size:14px;
+}
+.marx-search .content {
+    color:#ccc;
+}
+.marx-search .title b, .marx-search .content b {
+    color:#f90;
+    font-weight:normal}
+.search-bottom {
+    margin-bottom:20px;
+    overflow:hidden;
+}
+.marx-search .navigation {
+    float:left;
+    text-align:left;
+    padding:0;
+}
+.google-logo {
+    float:right;
+    margin-top:5px;
+}
+.correct {
+    padding:4px 0;
+    color:#f90}
+#home-top {
+    margin-bottom:10px;
+}
+.mx-tabs {
+    float:right;
+    width:300px;
+}
+.mx-tabs .cru {
+    font-weight:bold;
+    font-size:0.9em;
+    color:#0F0;
+    line-height:15px;
+}
+.mx-tabs .overview {
+    position:absolute;
+    overflow:hidden;
+    left:0;
+    top:0;
+}
+.mx-tabs .overview .page {
+    float:left;
+    width:300px;
+    display:block;
+    position:relative;
+}
+.mx-tabs .viewpost {
+    position:relative;
+    margin-top:10px;
+    overflow:hidden;
+    width:300px;
+    height:270px;
+}
+.mx-tabs .post {
+    white-space: nowrap;
+    margin: 3px 0;
+    padding: 4px 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.mx-tabs .post a {
+    color:#FFF;
+}
+.mx-tabs .post a, .trcate {
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.marxslider {
+    float:left;
+}
+#marx-slider {
+    height:292px;
+    overflow:hidden;
+    position:relative;
+}
+#marx-slider .buttons {
+    width:39px;
+    height:68px;
+    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    top:35%;
+    display:block;
+    z-index:10;
+}
+#marx-slider .disable {
+    visibility:hidden;
+}
+#marx-slider a.prev:hover {
+    background-position:-130px -19px;
+}
+#marx-slider a.next:hover {
+    background-position:-85px -19px;
+}
+#marx-slider a.prev {
+    background-position:-42px -19px;
+    left:-1px;
+}
+#marx-slider a.next {
+    background-position:0 -19px;
+    right:-1px;
+}
+#marx-slider .viewport {
+    width:640px;
+    overflow:hidden;
+}
+#marx-slider .overview {
+    position:relative;
+    z-index:0;
+}
+#marx-slider .post-thumb {
+    width:213px;
+    height:290px;
+}
+#marx-slider .overview li {
+    display:block;
+    float:left;
+    margin:0;
+    cursor:pointer;
+    width:213px;
+    height:290px;
+    position:relative;
+}
+#marx-slider .overlay {
+    display:block;
+    -moz-box-shadow:inset 0 0 50px #222;
+    -webkit-box-shadow:inset 0 0 50px #222;
+    box-shadow:inset 0 0 50px #222;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:0;
+}
+#marx-slider .overlay:hover {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+#marx-slider .item {
+    position:relative;
+    display:block;
+}
+#marx-slider .slider-title {
+    position:absolute;
+    /* background: #000;
+    opacity: 0.8; */
+    background: rgba(0, 90, 111, 0.65);
+    bottom:0;
+    right:0;
+    left:0;
+    padding:10px;
+    color:#fff;
+    height:30px;
+    overflow:hidden;
+    z-index:3;
+}
+#marx-slider .slider-title:hover {
+	background: rgba(34, 139, 128, 0.65);
+}
+
+#marx-slider .play {
+    font-family:arial;
+    padding:6px 8px;
+    border:1px solid #FFF;
+    font-size:16px;
+    position:absolute;
+    top:8px;
+    right:8px;
+}
+#marx-slider .title {
+    display:block;
+    margin-right:52px;
+    font-weight:bold;
+}
+.widget-post, .entry-content {
+    position:relative;
+}
+.entry-content .tooltip-right {
+    margin-right:12px;
+}
+.tooltip-left {
+    margin-left:12px;
+}
+.arrow {
+    width:7px;
+    height:13px;
+    display:block;
+    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-repeat:no-repeat;
+    position:absolute;
+    top:7px;
+    z-index:9998;
+}
+.tooltip-left .arrow {
+    left:-7px;
+    background-position:-186px -52px;
+}
+.tooltip-right .arrow {
+    right:-6px;
+    background-position:-175px -52px;
+}
+
+#Tooltip {
+    padding:0;
+    border:1px solid #1A4967;
+    background:#fff;
+    color:#000;
+    width:310px;
+    z-index:9999;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+#Tooltip .thead {
+    border-bottom:1px dotted #FFF;
+    padding:3px 5px;
+}
+#Tooltip span.title {
+    font-weight:bold;
+    color:#e68a00;
+}
+#Tooltip span.categories {
+    margin-top:2px;
+    display:block;
+    color:#333;
+}
+#Tooltip p {
+    padding:5px;
+    font-size:12px;
+    line-height:1.8}
+
+.lazy {
+    display:none;
+}
