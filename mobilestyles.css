@@ -1,0 +1,742 @@
+@-webkit-keyframes androidbugfix
+{
+	from
+	{
+		padding: 0;
+	}
+	to
+	{
+		padding: 0;
+	}
+}
+body {
+background:url('http://m.anivn.com/theme/animevn/images/bg.gif') repeat;
+background-color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+color: #333;
+padding: 0px; 
+font-size: 12px;
+margin-left:auto; 
+margin-right:auto; 
+margin-bottom:auto; 
+margin-top:0px;
+margin: 2px auto; 
+}
+
+img {
+border:none;
+}
+
+a {
+color: #0d6aa9;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+::-moz-selection {background-color: #FF9900; color: #fff;}
+::selection { background-color: #FF9900;color: #fff;}
+::-webkit-scrollbar{height:8px;width:8px}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 2px 2px 3px #e0e0e0;background:#fff;border:0 solid #000}
+::-webkit-scrollbar-thumb{-webkit-box-shadow:inset 2px 2px 3px #00CBF1;background:#00CBF1}
+::-webkit-scrollbar-thumb:hover{-webkit-box-shadow:inset 2px 2px 11px rgba(0,0,0,.3)}
+::-webkit-scrollbar-thumb:active{-webkit-box-shadow:inset 2px 2px 3px rgba(0,0,0,.3);background:#888}
+
+#vpt_breadcrumb, #vpt_h1, #reviewrate {display:none;}
+#facebook-anime {text-align:center;margin-top:5px;background:#fff; text-align:center;}
+#animevpt-admicro{
+	margin-top:5px;
+	text-align:center;
+}
+#quangcao-animevn{max-height:250px;	margin-top:5px; text-align:center;}
+.cpmstar{max-height:250px;	margin-top:5px; text-align:center;}
+/* Login & Register & Info Member */
+.infomember {
+margin-top: 8px;
+color: #FF6B00;
+margin-bottom: 22px;
+}
+
+.capnhatinfo #user_edit {
+width: 50%!important;
+text-align: center;
+background: #009CD5;
+color: #FFF!important;
+padding: 8px!important;
+border: 1px solid #DADADA;
+cursor: pointer;
+margin-top: -6px!important;
+}
+.capnhatinfo {
+  padding-bottom: 25px;
+}
+
+.capnhatinfo #user_edit:hover{
+	background:#83CA00;
+	color:#FFF;
+	border:1px solid #DADADA;
+}
+
+.khungthongtin {
+margin-bottom: 20px;
+padding: 5px;
+}
+
+.khungthongtin input {
+margin-top: -10px!important;
+width: 56%!important;
+padding: 8px!important;
+float: right!important;
+color: #0C1FE7!important;
+}
+
+.thongbaomember {
+    color: #F90;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: -7px;
+}
+
+.thongbaodangki {
+padding: 5px;
+margin-bottom: 5px;
+color: #ff6b00;
+font-weight: bold;
+}
+
+.dangnhaptaikhoan {
+text-align:center;
+padding-top:8px;
+}
+
+.dangnhaptaikhoan input[type=submit], input[type=reset], input[type=button], .dangnhaptaikhoan a {
+	background: #009CD5;
+	color: #FFF;
+	padding: 5px;
+	border:1px solid #DADADA;
+	cursor: pointer;
+}
+
+.dangnhaptaikhoan input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,  .dangnhaptaikhoan a:hover{
+	background:#83CA00;
+	color:#FFF;
+	border:1px solid #DADADA;
+}
+
+.khungdangki {
+padding:5px;
+}
+
+.infodangki {
+color: #0051FF;
+padding:12px;
+font-weight:bold;
+}
+
+.infodangki input {
+margin-top: -10px;
+width: 50%;
+padding: 8px;
+float: right;
+color: #F57900;
+}
+.infodangki-1 {
+padding-bottom:5px;
+
+}
+
+#reg_agree {
+display:none;
+}
+.dangkitaikhoan {
+padding-bottom:8px;
+}
+
+.dangkitaikhoan input[type=submit], input[type=reset], .dangkitaikhoan a {
+	background: #009CD5;
+	color: #FFF;
+	padding: 5px;
+	border:1px solid #DADADA;
+	cursor: pointer;
+}
+
+.dangkitaikhoan input[type=submit], .dangkitaikhoan a {
+float:left;
+}
+.dangkitaikhoan input[type=reset]{
+float:right;
+}
+
+.dangkitaikhoan input[type=submit]:hover, .dangkitaikhoan input[type=reset]:hover, .dangkitaikhoan a:hover{
+	background:#83CA00;
+	color:#FFF;
+	border:1px solid #DADADA;
+}
+/* End Login & Register & Info Member */
+.thongtin {
+margin-top:5px;
+border: 2px dotted #00A94F;
+padding:5px;
+margin-left:3px;
+margin-right:3px;
+}
+
+.pagination {
+	text-align:center;
+	line-height:25px;
+	overflow:hidden;
+	clear:both;
+}
+.pagination p {
+padding:0;
+margin:0;
+}
+.pagination span span, .pagination a{
+	color:#FFF;
+	background: #00A8FF;
+	padding:3px 10px;
+}
+
+.pagination a:hover {
+	background: #FF6B00;
+	color:#FFF;
+}
+
+.pagination .currentpage span{
+	background: #FF9900;
+	color:#FFF;
+	font-weight: bold;
+}
+
+.chatluong {
+line-height: 32px;
+cursor: pointer;
+color: #fff!important;
+font-weight: bold;
+margin: 2px;
+padding: 7px;
+background-color: #18B007;
+}
+.chatluong:hover {
+background-color: #FF7400;
+}
+
+#mobileplayer {
+margin-top:10px;
+border: 1px dotted #E08000;
+padding:5px;
+margin-left:3px;
+margin-right:3px;
+}
+
+.serverlist {
+margin-top:10px;
+border: 2px dotted #00A94F;
+padding:5px;
+margin-left:3px;
+margin-right:3px;
+}
+
+.server-name {
+font-weight:bold;
+color:#FF3000;
+}
+
+.ep {
+    line-height: 32px;
+    cursor: pointer;
+    color: #fff!important;
+    font-weight: bold;
+    margin: 1px;
+    padding-top: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 6px;
+    background-color: #0096E4;
+}
+
+.episodelist .active, .ep:hover {
+background-color: #FF7400;
+}
+
+.noidungphim {
+margin-top:3px;
+border: 1px dotted #008BFF;
+padding:5px;
+margin-left:3px;
+margin-right:3px;
+}
+.noidungphim img {
+display:none;
+}
+.title-info {
+font-weight:bold;
+color: #FF0066;
+}
+
+.xemanime {
+margin-top: -30px;
+float: right;
+padding: 6px;
+background: #009EFF;
+color: #FFF;
+}
+.xemanime:hover {
+background:#0179C3;
+}
+
+.info-anime {
+color:#E49300;
+font-weight:bold;
+}
+
+.info-anime-2 {
+color:#FF00DF;
+}
+.info-anime-2 a{
+color:#FF00DF!important;
+}
+
+.message {
+color:#000;
+}
+/* CSS Menu PRO */
+.sidebar ul{
+    margin: 0 0 9px 25px;
+    padding: 0;
+}
+
+.frm-search input{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 9px;
+    padding: 4px;
+    width: 210px;
+}
+
+.hide {
+    display: none;
+}
+
+.sidebar {
+	margin-top: 43px;
+	z-index: 99;
+    position: absolute;
+    top: 0;
+    width: 175px;    
+}
+
+.sidebar .navigator li {
+    line-height: 20px;
+}
+
+.sidebar .navigator li a:hover {
+    background:#67BA00;
+}
+
+.sidebar .navigator {
+    margin: 0;
+}
+
+.sidebar .navigator li a {
+border-bottom: 1px dotted #FFF;
+display: block;
+font-size: 15px;
+color: #fff;
+background: #00AEC5;
+}
+
+.cpage {
+    position: absolute;
+	width:100%!important;
+    top: 0;
+}
+
+.cpage .top-header {
+    background: none repeat scroll 0 0 #75B200;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.top-header .filter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, #75B200 0px, #75B200 99%) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #75B200;
+    border-image: none;
+    border-right: 1px solid #75B200;
+    border-top: 1px solid #75B200;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.28);
+    height: 40px;
+    margin-top: 1px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.top-header .filter .main-menu-link {
+    display: block;
+    float: left;
+    height: 41px;
+    width: 52px;
+    cursor: pointer;
+    background: url(http://m.anivn.com/theme/animevn/images/menuanivn.png) 5px -40px no-repeat;
+}
+.top-header .filter .main-menu-search {
+    display: block;
+    float: right;
+    height: 41px;
+    width: 52px;
+    cursor: pointer;
+    background: url(http://m.anivn.com/theme/animevn/images/menuanivn.png) 5px -2px no-repeat;
+}
+
+.top-header .frm-search {
+    margin-bottom: 0;
+    margin-top: 6px;
+    padding: 0 10px;
+}
+.top-header .frm-search .text-box{
+    background: none repeat scroll 0 0 #FFF;
+    width: 99%;
+}
+.top-header .frm-search .text-box .search-text-box {
+background: none repeat scroll 0 0 transparent;
+border: medium none;
+margin: 0;
+padding-left: 10px;
+width: 100%;
+}
+
+.sidebar .navigator .nav-text-default {
+    padding: 4px 0 2px;
+    text-indent: 15px;
+    height: 25px;
+    vertical-align: text-top;
+    width: 175px;
+}
+
+.sidebar .navigator .homepage {
+background: #E0A200;
+}
+
+.sidebar .navigator .danhsach {
+background: #FF4E84;
+}
+/* END CSS Menu PRO */
+
+.title-main {
+margin-top: 45px;
+padding: 6px 5px 4px 6px;
+border-bottom: 2px solid #00AFFF;
+font-weight: bold;
+font-size: 14px;
+color: #636363;
+}
+
+.title-main a,.title-main-1 a,.title-main-2 a,.title-main-3 a  {
+color: #FF1F96;
+}
+
+.title-main span a {
+float:right;
+}
+
+.title-main-1 {
+padding: 6px 5px 4px 6px;
+border-bottom: 2px solid #00AFFF;
+font-weight: bold;
+font-size: 14px;
+color: #636363;
+}
+
+.title-main-1 span a {
+float:right;
+}
+
+.title-main-2 {
+padding: 6px 5px 4px 6px;
+border-bottom: 2px solid #00AFFF;
+font-weight: bold;
+font-size: 14px;
+color: #636363;
+}
+
+.title-main-2 span a {
+float:right;
+}
+
+.title-main-3 {
+margin-top: 10px;
+padding: 6px 5px 4px 6px;
+border-bottom: 2px solid #00AFFF;
+font-weight: bold;
+font-size: 14px;
+color: #636363;
+}
+
+.infophim {
+padding: 5px;
+border-bottom: 1px dotted #92A807;
+overflow: hidden;
+}
+
+.img-anime {
+width: 85px;
+float: left;
+}
+
+.img-anime img {
+width: 85px;
+height: 110px;
+}
+
+.txt-anime {
+margin: -1px 0 0px 90px;
+min-height: 42px;
+overflow: hidden;
+}
+
+.txt-anime h3 {
+margin-bottom: 6px;
+}
+.txt-anime h3 a{
+color:#149300;
+}
+.infophim h3 {
+white-space: nowrap;
+margin-right: 3px;
+font-size: 14px;
+margin: 0px 0px 4px 0px;
+padding: 0px;
+}
+.txt-anime p, .txt-anime p a {
+color: #3F3F3F;
+}
+.infophim p {
+padding: 0px;
+margin: 0px;
+color:#3F3F3F;
+}
+
+.sotap_anime {
+float: left;
+background-color: rgba(255, 74, 74, 0.80);
+color: #fff!important;
+font-size: 12px!important;
+text-align: left!important;
+margin-left: 1px!important;
+margin-top: -20px!important;
+padding-top: 1px!important;
+padding-left: 5px!important;
+padding-right: 5px!important;
+height: 15px;
+display: block;
+position: absolute;
+}
+
+.footer {
+margin-top:4px;
+border-top: 1px solid #5f5f5f;
+padding: 5px;
+text-align: left;
+color: #FFF;
+background: -moz-linear-gradient(center top , #363636 0%, #434343 99%) repeat scroll 0 0 transparent;
+background: -webkit-gradient(linear, 0% 0%, 0% 99%, from(#363636), to(#434343));
+background: -webkit-linear-gradient(top, #363636, #434343);
+background: -moz-linear-gradient(top, #363636, #434343);
+background: -ms-linear-gradient(top, #363636, #434343);
+background: -o-linear-gradient(top, #363636, #434343);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#434343');
+}
+.footer a {
+color:#FFF;
+}
+
+/* Tìm kiếm */
+#search-form{ display:block !important; width:auto !important; padding:0 !important; position:static !important;}
+.search-vpt {float: left;line-height: 1em;margin-left: 40px;text-align: left;width: 286px; padding-top:6px;}
+.navbar-search-vpt {height: 28px;padding: 2px;width: 283px;}
+.textbox-vpt {
+border: 1px solid #FFFFFF;
+background: #000;
+margin-top: 5px;
+color: #FFD500;
+font-size: 14px;
+height: 24px;
+padding: 1px;
+vertical-align: middle;
+width: 82%;
+float: left;
+}
+
+.ac_results {
+	padding: 0px;
+	background-color: rgb(0, 166, 166);
+	color:#FFF;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+margin: 0px;
+padding: 6px 6px;
+cursor: default;
+display: block;
+font-size: 14px;
+line-height: 16px;
+overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('http://www.anivn.com/theme/animevn/images/loading_input.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color:rgb(0, 166, 166);
+	color: #FFF;
+}
+
+.ac_over {
+	background-color: #FF9900;
+	color: #FFF;
+}
+.ac_even a, .ac_odd a {
+	color: #FFF;
+	display: inline-block;
+	width: 99%;
+}
+.ac_results a:hover {color: #000;}
+.ac_results strong {color: #0017FF;}
+/* kết thúc tìm kiếm */
+
+/* Thông báo
+.bar_style1 {
+    border-top-left-radius: 0px!important;
+    border-top-right-radius: 0px!important;
+    font-size: 13px!important;
+    margin-top: 20px!important;
+    padding: 6px!important;
+}
+.notification-ask {
+    top: 50px!important;
+}
+.notiforyou_style1 {
+    padding: 3px 3px!important;
+    width: 368px!important;
+}
+.notiforyou_style1 > .line2-notification > .power-by-brand {
+    display: none!important;
+}
+.notiforyou_style1 > .line2-notification > .btn-action {
+    margin-left: 45px!important;
+}
+.notiforyou_style1 > .line2-notification > .btn-action > .canel-notification {
+    border-radius: 0px!important;
+    width: 50px!important;
+    color: #FFF!important;
+    background-color: #5F5F5F!important;
+}
+.notiforyou_style1 > .line2-notification > .btn-action > .allow-notification {
+    border-radius: 0px!important;
+    width: 50px!important;
+    background: #75B200!important;
+}
+.notiforyou_style1 > .row-notificarion > .logodiv {
+    width: 58px!important;
+}
+.notiforyou_style1 > .row-notificarion > .content-title > .title-notification {
+    margin-bottom: 2px!important;
+}
+.notiforyou_style1 > .line2-notification {
+    margin-top: 0px!important;
+}
+@media screen and (max-width: 480px) {
+    .bar_style1 {
+        border-top-left-radius: 0px!important;
+        border-top-right-radius: 0px!important;
+        font-size: 13px!important;
+        margin-top: 20px!important;
+        padding: 6px!important;
+    }
+    .allow-notification {
+        width: 15% !important;
+        height: 25px!important;
+        line-height: 22px !important;
+    }
+    .canel-notification {
+        width: 15% !important;
+        height: 25px!important;
+        line-height: 22px !important;
+    }
+    .notification-ask {
+        height: 130px!important;
+    }
+    .notiforyou_style1 {
+        padding: 3px 3px!important;
+        width: 98%!important;
+    }
+    .notiforyou_style1>.line2-notification>.btn-action {
+        margin-left: 0px!important;
+    }
+}
+Kết thúc thông báo */
+
+/* START CSS Onesignal */
+#onesignal-popover-container.slide-down #onesignal-popover-dialog{
+font-family: animevncms;
+width: 430px!important;
+}
+#onesignal-popover-container #onesignal-popover-dialog{
+padding: 0.7em!important;
+border-bottom-left-radius: 0px!important;
+border-bottom-right-radius: 0px!important;
+}
+#onesignal-popover-container #onesignal-popover-dialog .popover-body-message{
+padding: 0 0 0 0.6em!important;
+font-size: 1.15em!important;
+line-height: 1em!important;
+}
+#onesignal-popover-container #onesignal-popover-dialog .popover-footer{
+margin: 0!important;
+margin-top: -40px!important;
+}
+#onesignal-popover-container #onesignal-popover-dialog .popover-button.primary{
+background: #00A8FF!important;
+}
+#onesignal-popover-container #onesignal-popover-dialog .popover-button.primary:hover{
+background: #3CC1F3!important;
+}
+#onesignal-popover-container #onesignal-popover-dialog .popover-button{
+padding: 0.6em 1em!important;
+font-size: 1em!important;
+border-radius: 1px!important;
+}
+/* END CSS Onesignal */
+
+/* Quang Cao AdMicro */
+.ssvzHeader{display:none;}
+#ssvzone_37369{height:196px!important;width: 285px!important;}
+#ssvzone_37369_items .adv_items{height: 96px!important;padding-top: 3px!important;padding-right: 3px!important;margin-left: 3px!important;}
