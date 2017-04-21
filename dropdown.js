@@ -20,57 +20,6 @@ jQuery(document).ready(function ($) {
 	}
 });
 
-/* đóng góp ý kiến website */
-$(function () {
-    $('body').append('<div id="screen"></div>')
-    $('body').append(
-        '<div id="box_sendmail" class="box-alert">' +
-        '<div>' +
-        '<h3>Yêu cầu anime cho website !</h3>' +
-        '<form method="post" action="http://www.anivn.com/yeu-cau/mail.php">' +
-        '<p>Tên bạn :<input type="text" tabindex="1" placeholder="Tên của bạn" id="input-gopy" name="fullname"/></p>' +
-        '<p>Email : <input type="text" tabindex="1" placeholder="Địa chỉ email bạn" id="input-gopy" name="email"/></p>' +
-        '<p>Tin nhắn : <br><textarea placeholder="Nhập tên bộ anime bạn cần yêu cầu..." id="input-gopy" style="width:96%; padding:5" tabindex="1" name="comments" cols="40" rows="6"></textarea></p>' +
-        '<input type="submit" value="Gửi ngay" id="submit-gopy"/><input type="reset" id="reset-gopy" tabindex="1" value="Nhập lại">' +
-        '</form>' +
-        '<p>Yêu cầu của bạn sẽ giúp chúng tôi phục vụ được tốt hơn !</p>' +
-        '</div>' +
-        '<div class="box-alert-close"></div>' +
-        '</div>' +
-        '<div id="but-gopy"></div>'
-    )
-
-    function sendmail() {
-        center()
-        $('#screen').show()
-        $('#box_sendmail').fadeIn('fast')
-        return false
-    }
-    //close alert
-    $('.box-alert-close').live('click', function () {
-        $('#screen,.box-alert').hide()
-    })
-    //function center
-    center();
-    $(window).resize(function () {
-        center()
-    })
-
-    function center() {
-        var $wid = $(window).width()
-        var $hei = $(window).height()
-        $('.box-alert').each(function () {
-            $(this).css({
-                'left': ($wid - $(this).width()) / 2,
-                'top': ($hei - $(this).height()) / 2
-            })
-        })
-    }
-    $('#but-gopy,a[href^=sendmessage]').click(function () {
-        sendmail()
-        return false
-    })
-})
 /* lên đầu trang */
 $(function () {
     $.fn.scrollToTop = function () {
