@@ -7,7 +7,7 @@
 /* Start CSS AnimeVNCMS */
 /* @media screen and (max-width: 1590px) {
 body {
-    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat;
+    background:#000000 url(http://i.imgur.com/MRofRSB.png) fixed no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 57% 70%;
@@ -20,7 +20,7 @@ body {
 }
 @media screen and (max-width: 1600px) {
 body {
-    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat!important;
+    background:#000000 url(http://i.imgur.com/MRofRSB.png) fixed no-repeat!important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 80%!important;
@@ -33,7 +33,7 @@ body {
 }
 @media screen and (max-width: 1920px) {
 body {
-    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat;
+    background:#000000 url(http://i.imgur.com/MRofRSB.png) fixed no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -46,7 +46,7 @@ body {
 } */
 
 body {
-    background:#000000 url(http://www.anivn.com/theme/animevn/images/background.jpg) fixed no-repeat;
+    background:#000000 url(http://i.imgur.com/MRofRSB.png) fixed no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -151,7 +151,7 @@ opacity: .88;
 }
 .close {
 float: right;
-background: transparent url(http://www.anivn.com/theme/animevn/images/close-thongbao.png);
+background: transparent url(http://i.imgur.com/B7Xrr9M.png);
 width: 22px;
 height: 22px;
 }
@@ -204,7 +204,7 @@ float: left;
 }
 .search-button-vpt {
 background-attachment: scroll;
-background-image: url(http://www.anivn.com/theme/animevn/images/search_btn.png);
+background-image: url(http://i.imgur.com/s2BtpKq.png);
 background-position: left 0;
 background-repeat: no-repeat;
 border: 0 none;
@@ -275,7 +275,7 @@ background-color: #373737;
 text-align: right;
 line-height: 35px;
 width: 100%;
-background-image: url(http://www.anivn.com/theme/animevn/images/nen_watch.png);
+background-image: url(http://i.imgur.com/rPdoVQN.png);
 margin-top: 5px;
 margin-bottom: 5px;
 }
@@ -1157,7 +1157,7 @@ text-decoration:none;
 }
 div.box-alert{
     position: fixed;
-    background: url(http://www.anivn.com/yeu-cau/bg_box.png);
+    background: url(http://i.imgur.com/Mg4CPQE.png);
     z-index: 99998;color: #333;
     border-radius: 5px;
     display: none;
@@ -1174,7 +1174,7 @@ div.box-alert>div h3{
     color: #fff;height: 30px;
     font-weight: bold;line-height: 30px;
     text-indent: 30px;
-    background: #0088CC url(http://www.anivn.com/yeu-cau/yeu-cau.png) no-repeat 5px center;
+    background: #0088CC url(http://i.imgur.com/8wmE2JS.png) no-repeat 5px center;
 }
 div.box-alert>div>p {
 text-align:center;
@@ -1263,7 +1263,7 @@ li:hover, li.sfHover {
 }
 #noidung-footer {
 	color:#FFF;
-    background:url(http://www.anivn.com/theme/animevn/images/bg_bottom.jpg) no-repeat transparent;
+    background:url(http://i.imgur.com/NQUC9hg.png) no-repeat transparent;
     margin:0 auto;
     overflow:hidden;
     font-size: 13px;
@@ -1489,7 +1489,7 @@ box-shadow: 0px 0px 10px #00FFFF !important;
     color:#FFF;
 }
 .bt-img {
-    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-image:url(http://i.imgur.com/0ymHkFh.png);
     background-repeat:no-repeat;
     display:block;
     font-size:0;
@@ -1636,7 +1636,7 @@ font-size: 16px;
     color:#f90;
 }
 .ft-line {
-    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-image:url(http://i.imgur.com/0ymHkFh.png);
     background-repeat:no-repeat;
     height:9px;
     margin-bottom:3px;
@@ -1754,7 +1754,7 @@ width: 980px;
     width:135px;
 }
 #title a {
-    background:url(http://www.anivn.com/theme/animevn/images/sp.png) no-repeat -182px 8px;
+    background:url(http://i.imgur.com/0ymHkFh.png) no-repeat -182px 8px;
     display:block;
 }
 #header .widget-area {
@@ -1782,7 +1782,7 @@ width: 980px;
 
 #inner, #marx-slider .slider-title, #header .wrap {
     background:#000;
-	background-image:url(http://www.anivn.com/theme/animevn/images/bg-trong.png);
+	background-image:url(http://i.imgur.com/wah7OLj.png);
 }
 #inner {
     margin:0 auto;
@@ -1839,7 +1839,7 @@ blockquote p {
     line-height:22px;
 }
 .post-movies .post-info-wrap {
-    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    background:url(http://i.imgur.com/Z1ubLHm.png) repeat;
     padding:3px;
     position:absolute;
     right:0;
@@ -2165,7 +2165,7 @@ img {
     padding:0;
 }
 .marx-popup {
-    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    background:url(http://i.imgur.com/Z1ubLHm.png) repeat;
     bottom:0;
     color:green;
     display:none;
@@ -2176,7 +2176,7 @@ img {
     z-index:901;
 }
 .mx-modal {
-    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    background:url(http://i.imgur.com/Z1ubLHm.png) repeat;
     display:block;
     height:100%;
     position:fixed;
@@ -2196,7 +2196,7 @@ img {
     width:630px;
 }
 .mx-head {
-    background:url(http://www.anivn.com/theme/animevn/images/spc.png) repeat;
+    background:url(http://i.imgur.com/Z1ubLHm.png) repeat;
     color:#fff;
     cursor:pointer;
     font-size:13px;
@@ -2274,7 +2274,7 @@ img.aligncenter {
     margin:0 auto;
 }
 .viewicon {
-    background:url(http://www.anivn.com/theme/animevn/images/sp.png) no-repeat -130px 0;
+    background:url(http://i.imgur.com/0ymHkFh.png) no-repeat -130px 0;
     display:inline-block;
     width:16px;
     height:12px;
@@ -2447,7 +2447,7 @@ img.aligncenter {
 #marx-slider .buttons {
     width:39px;
     height:68px;
-    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-image:url(http://i.imgur.com/0ymHkFh.png);
     background-repeat:no-repeat;
     position:absolute;
     top:35%;
@@ -2558,7 +2558,7 @@ img.aligncenter {
     width:7px;
     height:13px;
     display:block;
-    background-image:url(http://www.anivn.com/theme/animevn/images/sp.png);
+    background-image:url(http://i.imgur.com/0ymHkFh.png);
     background-repeat:no-repeat;
     position:absolute;
     top:7px;
