@@ -246,7 +246,7 @@ margin-top: 2px;
 }
 
 .ac-loading {
-	background: white url('http://www.anivn.com/theme/animevn/images/loading_input.gif') right center no-repeat;
+	background: white url('http://i.imgur.com/ZxtrNw5.gif') right center no-repeat;
 }
 
 .ac-odd {
@@ -1262,15 +1262,16 @@ li:hover, li.sfHover {
     display:none;
 }
 #noidung-footer {
-	color:#FFF;
-    background:url(http://i.imgur.com/NQUC9hg.png) no-repeat transparent;
-    margin:0 auto;
-    overflow:hidden;
+    color: #FFF;
+    background-image: url(http://i.imgur.com/wah7OLj.png);
+    margin: 0 auto;
+    overflow: hidden;
     font-size: 13px;
-    padding:10px 10px 10px 10px;
-    width:960px;
-	line-height: 20px;
-    border:1px solid #6E6E6E;
+    padding: 10px 10px 10px 10px;
+    width: 960px;
+    line-height: 20px;
+    border: 1px solid #6E6E6E;
+    background-color: #000;
 }
 
 #noidung-footer a{
